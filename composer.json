@@ -1,0 +1,23 @@
+{
+	"name": "phpassets/css-factory",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lennart Carstens-Behrens",
+			"email": "lennart.carbe@gmail.com"
+		},
+		{
+			"name": "Jannes Behrens",
+			"email": "jannes@aw-studio.de"
+		}
+	],
+	"require": {
+		"php-assets/css": "*",
+		"php-assets/minify": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"PhpAssets\\Css\\Factory\\": "src/"
+		}
+	}
+}
