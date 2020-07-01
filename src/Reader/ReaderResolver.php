@@ -66,6 +66,8 @@ class ReaderResolver
      */
     protected function getFileExtension($path)
     {
-        return pathinfo($path)['extension'];
+        $partials = explode('.', $path);
+        array_shift($partials);
+        return implode('.', $partials);
     }
 }

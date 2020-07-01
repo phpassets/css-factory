@@ -53,6 +53,6 @@ class CompilerResolver
             return $this->resolved[$lang] = call_user_func($this->resolvers[$lang]);
         }
 
-        throw new InvalidArgumentException("Compiler CSS extension language [{$lang}] not found.");
+        throw new InvalidArgumentException("Compiler for CSS extension language [{$lang}] not found.");
     }
 }

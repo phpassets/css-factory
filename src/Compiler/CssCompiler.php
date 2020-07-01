@@ -7,7 +7,7 @@ use PhpAssets\Css\CompilerInterface;
 class CssCompiler implements CompilerInterface
 {
     /**
-     * Compile raw CSS or extension string.
+     * Compile raw CSS string.
      *
      * @param string $raw
      * @return string
